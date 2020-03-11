@@ -3,39 +3,95 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home</title>
+  <meta content="" name="description">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
+  <link href="site.webmanifest" rel="manifest">
+  <link href="icon.png" rel="apple-touch-icon">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
 
-  <meta name="theme-color" content="#fafafa">
+  <meta content="#fafafa" name="theme-color">
 </head>
 
 <body>
-  <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+  your browser</a> to improve your experience and security.</p>
+<![endif]-->
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
-  <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+<!-- Add your site or application content here -->
+<div class="margin_left_right_auto" id="wrapper">
+  <div id="header">
+    <div class="gr_width_small float_left" id="logo">
+      <a href="index.html"><img alt="LOGO" height="200" src="img/dt_logo.png" width="200"/></a>
+    </div>
+    <div class="gr_width_large float_left" id="menu">
+      <menu class="float_right reset_margin_padding">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="webstorm_tutorial/webstorm.html">WebStorm Tutorial</a></li>
+        <li><a href="git_tutorial/git.html">Git Tutorial</a></li>
+      </menu>
+    </div>
+    <div class="clear_float" id="masthead_landing">
+      <div id="hero_div">
+        <h1 class="reset_margin_padding">Dragon Technologies</h1>
+      </div>
+    </div>
+  </div>
+  <div id="main">
+    <div class="callout float_left">
+      <div class="title">
+        <h1>Who Are We</h1>
+      </div>
+      <div id="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel semper justo.
+        Curabitur lorem
+        ipsum, porta sed elit dictum, tincidunt iaculis dui. Praesent nec augue ornare, ultrices ex.
+      </div>
+    </div>
+    <div class="callout float_left">
+      <div class="title">
+        <h1>Coverd Material</h1>
+      </div>
+      <div id="content2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel semper justo.
+        Curabitur lorem ipsum, porta sed elit dictum, tincidunt iaculis dui. Praesent nec augue ornare, ultrices ex.
+      </div>
+    </div>
+    <div class="callout float_left">
+      <div class="title">
+        <h1>Learn More</h1>
+      </div>
+      <div id="content3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel semper justo.
+        Curabitur lorem
+        ipsum, porta sed elit dictum, tincidunt iaculis dui. Praesent nec augue ornare, ultrices ex.
+      </div>
+    </div>
+  </div>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+</div>
+<script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
+<script crossorigin="anonymous" integrity="{{JQUERY_SRI_HASH}}"
+        src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>');</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () {
+    ga.q.push(arguments);
+  };
+  ga.q = [];
+  ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto');
+  ga('set', 'transport', 'beacon');
+  ga('send', 'pageview');
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
 </body>
 
 </html>
