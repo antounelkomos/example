@@ -99,13 +99,13 @@ textarea {
    ========================================================================== */
 #wrapper {
   width: 960px;
-  font-family: Helvetica;
+  font-family: Helvetica sans-serif;
   font-size: 19px;
   line-height: 32px;
 }
 #menu {
-  height: 120px;
-  line-height: 120px;
+  height: 200px;
+  line-height: 200px;
 }
 .margin_left_right_auto {
   margin-left: auto;
@@ -132,7 +132,7 @@ textarea {
 }
 #masthead {
   height: 74px;
-  background-image: url("img/hero_img.jpg");
+  background-image: url("../img/Hero.jpg");
   background-size: cover;
   background-position: center;
   margin-bottom: 45px;
@@ -142,7 +142,7 @@ h1 a:link {
 }
 #masthead_landing {
   height: 367px;
-  background-image: url("img/hero_img.jpg");
+  background-image: url("../img/Hero.jpg");
   background-size: cover;
   background-position: center;
   margin-bottom: 45px;
@@ -157,7 +157,7 @@ h1 a:link {
   text-align: center;
 }
 .callout {
-  width: 320px;
+  width: 315px;
   height: 197px;
 }
 .footer {
@@ -167,8 +167,8 @@ h1 a:link {
 #hero_div {
   color: whitesmoke;
   position: relative;
-  top: 30px;
-  left: 30px;
+  top: 50px;
+  left: 50px;
 }
 .position_absolute {
   position: absolute;
